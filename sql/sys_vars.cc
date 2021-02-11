@@ -4630,6 +4630,8 @@ static bool check_transaction_isolation(sys_var *, THD *thd, set_var *var) {
 }
 
 /**
+ * 
+ * 设置当前的会话ISOLATION
   This function sets the session variable thd->variables.transaction_isolation
   to reflect changes to @@session.transaction_isolation.
 

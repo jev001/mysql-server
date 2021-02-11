@@ -791,6 +791,7 @@ class Transactional_ddl_context {
 };
 
 /**
+ * 每一个客户端连接都有一个 线程/连接描述符 一个SOCKET?
   @class THD
   For each client connection we create a separate thread with THD serving as
   a thread/connection descriptor
